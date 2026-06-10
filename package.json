@@ -1,0 +1,14 @@
+{
+  "name": "ai-novel-license-api",
+  "version": "1.0.0",
+  "description": "License Key 验证 API - AI 小说创作助手",
+  "dependencies": {
+    "@upstash/redis": "^1.28.0",
+    "crypto-js": "^4.2.0"
+  },
+  "devDependencies": {
+    "@types/crypto-js": "^4.2.0",
+    "@vercel/node": "^3.0.0",
+    "typescript": "^5.0.0"
+  }
+}
