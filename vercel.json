@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "api/verify.ts", "use": "@vercel/node" },
+    { "src": "api/generate.ts", "use": "@vercel/node" },
+    { "src": "api/afadian-webhook.ts", "use": "@vercel/node" }
+  ],
+  "routes": [
+    { "src": "/api/verify", "dest": "/api/verify.ts" },
+    { "src": "/api/generate", "dest": "/api/generate.ts" },
+    { "src": "/api/afadian-webhook", "dest": "/api/afadian-webhook.ts" }
+  ]
+}
